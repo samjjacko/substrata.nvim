@@ -104,7 +104,7 @@ local set_groups = function()
     Boolean = { fg = c.pink, bg = c.none, style = cfg.boolean_style }, -- true , false
     Function = { fg = c.blue, bg = c.none, style = cfg.function_style },
     Identifier = { fg = c.blue, bg = c.none }, -- any variable name
-    String = { fg = c.cyan, bg = c.none }, -- Any string
+    String = { fg = c.bright_blue, bg = c.none }, -- Any string
     Character = { fg = c.pink }, -- any character constant: 'c', '\n'
     Number = { fg = c.pink }, -- a number constant: 5
     Float = { fg = c.pink }, -- a floating point constant: 2.3e10
@@ -458,7 +458,6 @@ M.colorscheme = function()
 
   vim.o.termguicolors = true
   vim.g.colors_name = "substrata"
-
   set_terminal_colors()
   set_groups()
 end

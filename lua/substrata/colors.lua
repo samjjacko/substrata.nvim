@@ -9,8 +9,11 @@ M.default = {
   red = "#cf8164",
   green = "#76a065",
   yellow = "#ab924c",
-  blue = "#8296b0",
+  --blue = "#8897f4",
+  -- blue = "#8296b0",
+  blue = "#8d89e8",
   magenta = "#a18daf",
+  -- magenta = "#556fff",
   cyan = "#659ea2",
   white = "#b5b4c9",
   -- Bright
@@ -32,6 +35,7 @@ M.default = {
   gray07 = "#85889b",
   -- Special
   none = "NONE",
+  stringclr = "#8897f4",
 }
 
 M.brighter = {
